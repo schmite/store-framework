@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
         "flex-layout.row",
-        "shelf"
+        "shelf",
+        "slider-layout#home"
     ]
   },
   "flex-layout.row":{
@@ -16,6 +17,15 @@
       "image#electronics",
       "image#major-appliance"
     ]
+  },
+  "slider-layout#home": {
+    "children": ["info-card#1", "info-card#2"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
   },
   "info-card#button-right": {
     "props": {
