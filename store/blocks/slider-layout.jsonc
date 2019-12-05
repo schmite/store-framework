@@ -8,6 +8,29 @@
         }
         }
     },
+    "responsive-layout.desktop#desktop": {
+        "children": ["rich-text#desktop"]
+      },
+      
+      "responsive-layout.mobile#mobile": {
+        "children": ["rich-text#mobile"]
+      },
+      
+      "rich-text#desktop": {
+        "props": {
+          "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER"
+        }
+      },
+      
+      "rich-text#mobile": {
+        "props": {
+          "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER"
+        }
+      },
     "image#brand1": {
     "props": {
         "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png"
