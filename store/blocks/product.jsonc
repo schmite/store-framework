@@ -27,10 +27,6 @@
     ]
   },
   "stack-layout#brand": {
-    "props": {
-      "displayMode": "logo",
-      "height": "height"
-    },
     "children": [
       "product-images",
       "product-brand"
@@ -62,6 +58,12 @@
       "initialSelection": "",
       "showValueNameForImageVariation": true,
       "showVariationsErrorMessage": true
+    }
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "logo",
+      "height": "30"
     }
   }
 }
