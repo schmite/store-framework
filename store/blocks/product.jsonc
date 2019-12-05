@@ -9,7 +9,7 @@
       "marginTop": 6
     },
     "children": [
-      "flex-layout.col#left",
+      "flex-layout.col#left", 
       "flex-layout.col#right"
     ]
   },
@@ -19,11 +19,15 @@
     ]
   },
   "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+    },
     "children": [
       "product-name",
       "product-price",
       "buy-button"
     ]
-    
+
   }
 }
